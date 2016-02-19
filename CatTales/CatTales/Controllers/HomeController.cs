@@ -15,14 +15,14 @@ namespace CatTales.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "You love cats; we do, too!";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Here's how to contact us:";
 
             return View();
         }
