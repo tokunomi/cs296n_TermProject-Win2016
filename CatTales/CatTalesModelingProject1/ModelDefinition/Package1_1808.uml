@@ -1,0 +1,3430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="c73a33e7-bc78-4f9c-9f80-bb03198f696c"
+  name="Models"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="20dfb2ac-6138-47e8-977d-4e6ad64bead0"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DCatTales.Models"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="0d85f034-6ed3-4df1-beb1-6d3d8b05acc1"
+        name="Member"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="76c4d0a7-320d-45d5-8cee-b378e3f2c919"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DMember"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="735fea58-57b2-4ea8-bf54-8d8f4f7598d9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eb871dc5-fe50-4dba-84aa-8c54a198b58d">
+                <propertyInstance
+                  Id="911a07e3-757e-4f36-b637-6ed217e1c455"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a8dfa9d8-7bf8-483a-9707-713ad67c0f06">
+                <propertyInstance
+                  Id="67cb954c-1757-4ff1-986d-7ebecc60d621"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="06638bf7-9ba8-415d-88ce-7b88b155df86">
+                <propertyInstance
+                  Id="6643cc66-d9c1-452e-985c-563aa88a2235"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="54825a4a-d58b-4b62-b5bb-ae29b1e3f0f7">
+                <propertyInstance
+                  Id="501ef15c-8241-407e-affd-c1b0a13d9b5d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d97b08f7-5b88-4ed2-9b39-c840f320092c">
+                <propertyInstance
+                  Id="dc91998f-2cfc-4995-a965-cacc757aa015"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="06b9bc2b-9d64-45ab-a635-aa163b12f80a"
+            isDerived="false"
+            sourceEndRoleName="Member"
+            targetEndRoleName="Birthday"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="85b13095-79a8-4531-b396-bed33f49f275"
+              LastKnownName="DateTime"
+              LastKnownLocation="Package2_1808.uml" />
+            <description>Property Birthday references type DateTime.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d23d85ab-7b3c-42cb-afd8-ed75dc5ffec4"
+                  name="Member"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="fb904c74-511d-4176-a6bb-1ad6a6b21f99"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="7ed56fa9-9093-4c52-972e-79dfd94dddd9"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8890c810-ed51-48d1-b2f0-87f7b26d0b55"
+                  name="Birthday"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="3d0d128c-6233-4a1b-a143-e6aeb743b7cf"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="5ad630e0-8614-4bc9-9757-614a9e407369"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="05838dcf-603f-4cb2-9a5a-aac87a3b54dd"
+            isDerived="false"
+            sourceEndRoleName="Member"
+            targetEndRoleName="Cats"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="4a70b605-c713-4cff-9795-6d5780319495"
+              LastKnownName="List&lt;Cat‎&gt;"
+              LastKnownLocation="Package4_1808.uml" />
+            <description>Property Cats references type List&lt;Cat‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="97a2b3a3-9ee0-457f-bf2b-4bd2927aaf53"
+                  name="Member"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="641dd197-86ea-450e-9737-63e183358810"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="9939fd97-faca-4fa5-a527-d0a74879091a"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6ed2c7ad-fe9f-455f-82d7-62a2aee19d1d"
+                  name="Cats"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="27a489d8-778b-49e6-bed6-53053a609ac9"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="2cef32a0-0d86-47ff-b237-188d8773be3a"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="e085b060-42a2-4206-9697-d72d6a9ea4ed"
+            name="Birthday"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d9fb36b3-7eb2-4697-bcfb-99880acc3586"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DMember Member%3DBirthday"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9fbbe42f-c136-483d-8cb7-a59f9ed2b1df"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a01c6d1-75cf-4918-babc-9d3c200c5fc9">
+                    <propertyInstance
+                      Id="2be38029-7a18-474c-aece-baa539f3e60a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a40a7879-3c9c-403e-82f2-eccc74d91902">
+                    <propertyInstance
+                      Id="5ed8af1e-abd4-4dd1-8e35-53ac248a7461"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1bad10f-f7bc-4282-a788-1826ccc7cdb5">
+                    <propertyInstance
+                      Id="f804fbc0-4dae-4d5e-94c0-218d2931cc1c"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd216a77-f953-4429-aab0-eff33f9aed2e">
+                    <propertyInstance
+                      Id="7ca074a4-8c8c-48e9-bd24-06e0f8e420f3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21c338ac-e36d-47d0-bcd9-7df680b1de58">
+                    <propertyInstance
+                      Id="daf559ae-f3dd-45f7-92ac-02172c98765f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84c045b4-bd3f-41a3-9d35-01e6e1f6a23d">
+                    <propertyInstance
+                      Id="9d2ebfda-fe0b-412c-b5e6-d0cb5eca3fdd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="251314b0-eead-4437-9f6d-24bd4f9f9dfd">
+                    <propertyInstance
+                      Id="e1a8a446-62fb-48a3-86c0-8dd1b1f3bca3"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="85b13095-79a8-4531-b396-bed33f49f275"
+                LastKnownName="DateTime"
+                LastKnownLocation="Package2_1808.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1fe3cb7a-b9dd-47a8-a463-d4142dbd496b"
+            name="Cats"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2c00f9c3-2a8b-40cd-b896-2cf4bf633c60"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DMember Member%3DCats"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bd631b66-feef-4f8d-9770-638037c9fdfc"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02f8b3c0-d88b-4aa1-97a3-66b259a161fa">
+                    <propertyInstance
+                      Id="77f43c11-1e42-4772-a186-d6e63fb26357"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb5e97d1-b8f8-4281-9491-d39e01d09606">
+                    <propertyInstance
+                      Id="f2232caf-c4d1-4c83-a6be-6c40c5d53430"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10f76c96-43cf-4164-9b0c-b74db594e927">
+                    <propertyInstance
+                      Id="6d5887bd-0949-460d-8b4f-44a3c3167570"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cfc0d5b4-13da-417b-8085-89848fa8570c">
+                    <propertyInstance
+                      Id="8d6292f2-ca09-4ecf-85f2-8a95ccb436b3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48774242-d716-4269-a7c6-c77d8c02ca46">
+                    <propertyInstance
+                      Id="88dfa572-9231-45e3-816f-8e40f6b94717"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce583cc9-8d6e-45c0-acb3-ee91cb062193">
+                    <propertyInstance
+                      Id="7fb6bd52-9816-4323-ba56-0d2d78a613ad"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56e73304-b9f4-4cfe-a119-9e1b15b844d4">
+                    <propertyInstance
+                      Id="37c61819-8106-4514-9db5-6efd749f314b"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="4a70b605-c713-4cff-9795-6d5780319495"
+                LastKnownName="List&lt;Cat‎&gt;"
+                LastKnownLocation="Package4_1808.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="bc8f0b89-ba63-4818-af44-c1456df70b06"
+            name="Email"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7af7a627-54e6-428a-a936-037a870463a2"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DMember Member%3DEmail"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b3a7ace0-5ab1-4063-998e-26fe11b75488"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed3cc565-12c3-4a9c-88c3-eb40a03c9e5d">
+                    <propertyInstance
+                      Id="bd6eb0a7-3efa-486a-8999-7c13a064a969"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4af9207-ebe9-4d42-b851-25873c9baa2c">
+                    <propertyInstance
+                      Id="b93b5bbb-3363-468d-9a4d-7343e1e1836d"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="abb79ca0-9399-4e78-8d5c-6f933f02143c">
+                    <propertyInstance
+                      Id="6f1da5cb-102d-4698-8873-fa1648e64c0d"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be92efc5-cfee-4604-ab28-bf826ec069aa">
+                    <propertyInstance
+                      Id="b7408f6f-0d66-4630-b1eb-6a2f8988301f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9f8e6b0-b244-4753-95ec-ca0a98cca49d">
+                    <propertyInstance
+                      Id="13e778cf-57ba-4735-a904-bfb54d3bed47"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22f60889-6cf3-4592-afc9-e3a80f9e7934">
+                    <propertyInstance
+                      Id="550f7325-ba5a-48c8-9f88-420bc3c6136c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee6417e5-d56b-44a4-98b6-8ad516f697be">
+                    <propertyInstance
+                      Id="6299c155-9f88-4885-882b-0c3f87123c74"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="57be8a3e-773c-4920-b27d-6d1f93c5ebea"
+            name="Gender"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="797ca432-b5a4-40c8-985e-97e56c0d8b0e"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DMember Member%3DGender"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1c67429b-2c87-457e-9211-b9fdfc59d980"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04b85835-9c32-4e45-9a5e-6bb52922011e">
+                    <propertyInstance
+                      Id="5107286f-a23f-4044-a7dd-becb83e52f11"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1cce585-10c6-4bc8-a054-80d0124c8327">
+                    <propertyInstance
+                      Id="c96fd15b-35fd-4a78-890c-b0dd306219e5"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8feab72-a619-49f9-b94a-27b9b554f03e">
+                    <propertyInstance
+                      Id="51ec59a4-7fe2-4c6b-a661-a97b66841e2f"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="325282a1-8039-471f-9f78-de317be8b9ce">
+                    <propertyInstance
+                      Id="f7c5350e-5e59-4d12-a9fa-28251bc918a0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe2eacff-4474-4c95-899f-c853921eb1f6">
+                    <propertyInstance
+                      Id="74d7f59c-ee56-4e93-8334-4680856dd81e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17656fa9-551d-4b3d-b1bd-7bbc07338e89">
+                    <propertyInstance
+                      Id="61cdc091-6adb-432b-8a84-811674580e47"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af0cf50e-8252-4fd0-a019-f16b7af8200b">
+                    <propertyInstance
+                      Id="a1c7b155-fdc1-480a-9ad8-354ba7a7dda5"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="511ec03b-d683-4b3a-89b3-87f081a0cacd"
+            name="MemberID"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="980683c5-28cd-4880-950e-7e73f1fafb73"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DMember Member%3DMemberID"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bf666170-6b0e-47f3-a0f1-6127ba4fbac4"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b09c85dd-09fc-49c2-a089-c75066603a23">
+                    <propertyInstance
+                      Id="70e07be6-9c2a-495e-848a-84b2b8540dad"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0473d55-b618-47d0-b979-20cb6219dbf2">
+                    <propertyInstance
+                      Id="1686f1a6-7417-4ea2-8455-e4861ac3c111"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe2ae975-4956-4303-866b-e1f07fb0501b">
+                    <propertyInstance
+                      Id="c689c666-81fa-4b4d-9362-5b03b440d36c"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4132a18-75f0-4255-a1c6-06443ee25fa5">
+                    <propertyInstance
+                      Id="6745a33e-77a4-48aa-80f7-da273a87bf07"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d0d5eba-2a8d-4310-ae72-343859049a06">
+                    <propertyInstance
+                      Id="494271a8-b8b1-4aa6-b3b6-395a7a14662c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5063cbe4-9786-41a5-9a86-aa440ad2b2b3">
+                    <propertyInstance
+                      Id="50e1d456-1cf9-4a61-97d8-a19ab842b75a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3abbbc9-7add-4edf-9036-267a5477e6b6">
+                    <propertyInstance
+                      Id="5f9a8f49-706f-4f74-bf95-2d98c30fd7e1"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="86e8d266-7071-4ca2-9db6-123873c063b8"
+            name="NameFirst"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d6097877-1632-4679-a8b7-24605158de8a"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DMember Member%3DNameFirst"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3e3f6f18-4691-4716-8813-745f93d78cc9"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96bd3d0b-7148-4af1-97d4-30bf1392cdeb">
+                    <propertyInstance
+                      Id="886d5ae4-1a0b-438f-a116-afc7089d4652"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9a00977-5bce-403c-a641-6818a4bd5e4a">
+                    <propertyInstance
+                      Id="ce712132-19e5-4d40-b09d-55212c627ddb"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0dc90001-70d5-4539-9cd3-b6420ab84e11">
+                    <propertyInstance
+                      Id="37b50d18-9818-4c29-a0ad-33c5ee0302ba"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="edc44ca4-3768-44a5-87c8-28ded339c847">
+                    <propertyInstance
+                      Id="18e9af91-6a09-4c81-83e0-9f645489df0f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="28ba89ab-b326-4c89-941d-443fec6efaa5">
+                    <propertyInstance
+                      Id="ce851524-6a4a-4da1-9980-b783b9fb9855"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5915cdbd-1281-4186-9e6f-7c7c2ccc3298">
+                    <propertyInstance
+                      Id="ffb8b238-398c-49d2-84e9-5cd3aa5898a4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ece8ece-ce31-46ee-b85e-aac5e2861f63">
+                    <propertyInstance
+                      Id="a904d4c9-392e-47ad-bd56-ef202394074b"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="5fa77309-e8a9-489d-a700-53a613887989"
+            name="NameLast"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ae99f13c-67af-4f47-a64f-d26dcf70538c"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DMember Member%3DNameLast"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="54a211b9-c818-430a-a934-45951a18a6d2"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c81107fe-c3d2-4526-a647-b4b1b3b2f742">
+                    <propertyInstance
+                      Id="6b4a3ef1-c520-4bcb-85ca-ec96a23c6954"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2019699e-e3ea-491a-b74c-19ac0d0ab153">
+                    <propertyInstance
+                      Id="7116d179-dc96-4cf2-965f-210aa98425c4"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="989bfb12-e612-48fb-bd5b-5eb98690b780">
+                    <propertyInstance
+                      Id="dafec7f0-18ec-4a70-b6a7-33d70a2afeae"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12d2e114-5dcd-4f64-8670-f3cd141e4a80">
+                    <propertyInstance
+                      Id="5ed2b267-2882-4c5a-8264-e9cf6cc1d54e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41f9a4d2-588f-4285-b0cb-9aee4caa20f3">
+                    <propertyInstance
+                      Id="ac28251d-01dd-45d1-8e77-360f9540f100"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dec2a1a9-ba15-4070-872b-6c375aa91515">
+                    <propertyInstance
+                      Id="5e7d2e09-dbe6-41fa-93cb-08fe2eaf2035"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e565ee30-4094-4748-bdcf-6ab3534436b9">
+                    <propertyInstance
+                      Id="ed77e17b-3d74-4311-ae02-f849432c83b2"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="63c09e3b-275e-43fd-ac97-959831da270d"
+            name="ProfPict"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="91a82613-908d-41fb-b2ee-cca122816a46"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DMember Member%3DProfPict"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c447c2ed-3954-42b4-a701-dd4e8b128914"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35f7a2fe-883e-4614-adf1-dd346bbe538b">
+                    <propertyInstance
+                      Id="6e408193-1ec4-4ade-91f4-5e0df85e301d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24237af0-5562-4e60-af44-695d1c1947e2">
+                    <propertyInstance
+                      Id="0d2d29a1-27c0-4c32-8471-c9774c525bff"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7b070e0-c39c-442b-97ef-ef069fde17b1">
+                    <propertyInstance
+                      Id="9421fc91-1397-4ae9-b26b-31daac7ae9e2"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f6436c5-8310-4938-8a27-526884cc9324">
+                    <propertyInstance
+                      Id="5f689334-ed7f-4d19-8405-90a522b990d9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec974158-818a-45d9-89a7-8d2707b0b423">
+                    <propertyInstance
+                      Id="db1b7c11-ec65-4133-8e20-672aaabbf306"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d53b84e-9dbf-4235-b08a-3db9c12db0b2">
+                    <propertyInstance
+                      Id="02d80cc2-0bae-4b9c-98b5-6536b61ab065"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a733a24-3caa-4a36-91dc-479d706c36c6">
+                    <propertyInstance
+                      Id="efc85b07-e8c4-4fc4-b060-abd86947a7af"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4153e9bc-0a83-4873-910d-6970a41ded53"
+            name="Username"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="bd0a8525-9b86-4084-8e49-78eac3a102b1"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DMember Member%3DUsername"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2256f2ca-5284-433c-8a96-e77d61dfa408"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b225809-13b4-4e00-858d-f5b33de17138">
+                    <propertyInstance
+                      Id="fca68c43-9e41-4ff7-8f9f-1b650e14bb15"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51505cd2-ff30-482a-be20-3262a3f1a746">
+                    <propertyInstance
+                      Id="6f36f58b-c887-48fb-851a-055777ccb329"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e091568-4891-480c-9174-a7813c64c3c4">
+                    <propertyInstance
+                      Id="c0007bad-aedd-44ec-b229-3040de25e011"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ffd96466-eef9-4143-be79-17e8edaf6abc">
+                    <propertyInstance
+                      Id="dc741e0d-2b80-486e-8a32-286a1b3dc960"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b778d911-398e-48cf-b69a-eebc448bbc88">
+                    <propertyInstance
+                      Id="8413ef06-fed4-4b97-8cc5-17550d98d72a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7dbb063-f9d4-488d-b16a-5781f65ee433">
+                    <propertyInstance
+                      Id="e67f3c96-51ff-4b64-b921-109c8c4a4589"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="326bcc3f-600e-42fb-b1ea-d35fd24217bc">
+                    <propertyInstance
+                      Id="b63c6ec7-90ef-426a-acc7-a3debc693a56"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6a7a30b1-4035-40c8-8930-3226ca462863"
+            name="Website"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="88765dd6-7579-42f5-9073-c886dba08151"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DMember Member%3DWebsite"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a893171c-2125-44a6-9ac5-957822deaaab"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c629c6b-bc73-45d8-aa1e-2dc09863e142">
+                    <propertyInstance
+                      Id="f8578609-e76f-4490-a5bc-b6726eb752c0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7537d0b4-2c16-4d5d-96b1-654e7d33ccdd">
+                    <propertyInstance
+                      Id="53fa0cd6-4e3b-49cc-bf62-80af28e13adf"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a108912-29cc-4382-9b9b-0826794b8eba">
+                    <propertyInstance
+                      Id="8ef97b4c-5e7d-4238-8593-8b2b726d53d9"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a24ebec-e5bd-4e03-8e9a-50c9520755c6">
+                    <propertyInstance
+                      Id="58d030cf-6063-47d8-b57a-004cc57de0e4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75c32999-e71b-401f-bc90-330af5962952">
+                    <propertyInstance
+                      Id="5f21a9b8-0d4a-4246-a345-8280aa76c7f4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb4efc68-5d67-4eb2-ba21-e9cb2f8e0140">
+                    <propertyInstance
+                      Id="a58c2492-69b6-463f-80ba-ca19d62de25a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="072ae58e-59d3-4cc7-8265-89d027a326f8">
+                    <propertyInstance
+                      Id="08ec67c9-7dc2-4b7c-9413-db962b4793c3"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="845422a6-8148-4c2b-adee-e6c6e7a390a3"
+            name="cat"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="4fda1acb-2b58-4bb6-bb78-24a98d07a751"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DMember Member%3Dcat"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c1d70259-677b-40cd-a234-8fc3d3fba0df"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="edfc13e3-96a4-4116-b608-b5086fe8b25b">
+                    <propertyInstance
+                      Id="7637c129-a610-4a34-9eea-d8043eff7a16"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b6cbeb9-4f47-4c12-9db1-52f413ada0e1">
+                    <propertyInstance
+                      Id="cdc749a7-9a95-4079-9d18-b8056b791bc4"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d0f9a78-de14-42b6-950b-5a88fe4f6b81">
+                    <propertyInstance
+                      Id="c2de9b13-2f7e-47f6-8879-18133195685c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba08bd88-939d-4223-ae39-02f06d2488dc">
+                    <propertyInstance
+                      Id="49f5b1cf-7aad-45d2-a396-453ef0e57811"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7979b297-b1cf-4dd4-889d-eacc74464ac1">
+                    <propertyInstance
+                      Id="77d9dda1-c8b6-41dd-b484-89c282330c08"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="4a70b605-c713-4cff-9795-6d5780319495"
+                LastKnownName="List&lt;Cat‎&gt;"
+                LastKnownLocation="Package4_1808.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="48aeb17e-37e5-462f-b22f-6d9e7f752bed"
+            name="Member"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e17e1ac4-73b5-490c-97e4-7028764385e2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DMember Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f64362ee-6c74-4bb7-a292-57fed7f3c140"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd516e31-5b46-41b2-9b7c-cc6f94edcc9b">
+                    <propertyInstance
+                      Id="e88e562a-b28e-4db9-9984-17362f1befc0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f7e40af-d946-40c6-afef-d17254716ad4">
+                    <propertyInstance
+                      Id="7c1b2af1-43ab-45d5-818f-c9cdf24f7469"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8450f804-f2c4-4df9-847b-2b49123b7538">
+                    <propertyInstance
+                      Id="b7f3d683-9040-48f5-9722-1cda4e9861a3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4aac39a-72db-4ab2-8b7b-fec0f14e5d8a">
+                    <propertyInstance
+                      Id="dae87b86-91da-4a46-8978-77ce4eb2825f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b3d95e2-7613-4de7-bd26-27510a85579b">
+                    <propertyInstance
+                      Id="d9ab356f-1190-4697-8af5-6d042bae7057"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e15c922d-946c-4057-b439-6ce07e097628">
+                    <propertyInstance
+                      Id="3d6e34dc-7a50-4ffb-91b1-983a673c2cb6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ad9c98d7-9753-411a-9890-1a3ba84f9942"
+        name="Cat"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2abe49f6-a877-4a7e-ac15-488d29927c8f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DCat"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3d953795-402e-4aa6-ab7a-949b894cbe51"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a1f860bd-c3dc-4eef-a0fa-ce398a4a88a8">
+                <propertyInstance
+                  Id="21882175-b3ee-4cb4-b46e-a066e1abb383"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1aae935d-21a5-4956-9cd8-b477ad85432e">
+                <propertyInstance
+                  Id="e81ab8dc-9008-41b9-8508-8190df1db0fa"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4917e759-fb2f-48c3-a333-1ecfafe4e702">
+                <propertyInstance
+                  Id="4d983d16-644d-4bd4-80e6-6a8105e16b8e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="90c29a71-3dd3-4c2a-ad40-0104fa4a03d2">
+                <propertyInstance
+                  Id="95a2913a-478c-4e57-841e-710802d2d572"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c448a309-73f9-4434-a97d-f36ae480e057">
+                <propertyInstance
+                  Id="f860114c-1115-4549-afb1-54d835ec0001"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="3762ca31-6799-45aa-97b5-9b271539bdc2"
+            isDerived="false"
+            sourceEndRoleName="Cat"
+            targetEndRoleName="Member"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="0d85f034-6ed3-4df1-beb1-6d3d8b05acc1"
+              LastKnownName="Member"
+              LastKnownLocation="Package1_1808.uml" />
+            <description>Property Member references type Member.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c7b8d354-cea9-46c3-8472-e3165e297736"
+                  name="Cat"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0649a0fb-db74-4577-b7fa-0aea8a58a03e"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="e3f76b8d-753c-49cb-8f55-ada81bdd9907"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bd34b3d3-520d-4c07-9cf3-4ccfa24dbfae"
+                  name="Member"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="29b4964d-e944-49e1-a50f-d337fb381c99"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="e20d4837-da8d-4838-a636-41eb82636efb"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="c6ea512e-2d96-4907-8872-41c18a745a11"
+            name="Age"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f1521976-c822-4a5e-a58c-8bdf261e99a1"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DCat Member%3DAge"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8740d29a-f795-4bff-a020-ff26296c21f2"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="684aa28f-8bdd-46ab-87d5-3cdf6a09cb86">
+                    <propertyInstance
+                      Id="45a8fc87-282d-4b50-a386-24d4f582609f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b8c746b-c7e5-49b8-8783-1ecc40da2363">
+                    <propertyInstance
+                      Id="5c23ad4b-27cf-4a96-947b-301e4951b685"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1f0e5a5-4e37-437e-a3eb-7ed4c2e0e5b9">
+                    <propertyInstance
+                      Id="636749e2-b1a4-49bf-b05a-ec3d4c0f583e"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2fbbe900-a44c-48de-890e-e7378a86c443">
+                    <propertyInstance
+                      Id="e9010f2e-dbdc-4a49-b20f-d690213ab5a6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4fb031a1-efb9-45e4-a84c-178fac81a893">
+                    <propertyInstance
+                      Id="1ee124dd-0858-4cd6-a793-62faddd25429"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86944462-b71d-40be-b4cc-b012969e77b0">
+                    <propertyInstance
+                      Id="a9d7b8bc-eb94-4b0e-a285-d80b9c356ca0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f3ebae1c-213b-406b-a95a-e5a3b1280a03">
+                    <propertyInstance
+                      Id="c528e20a-6df9-4fb6-9f09-c62924a45e48"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="356ccf3e-c29f-4ddd-90bb-8dbbe5a8f179"
+            name="Breed"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ece28629-e6dc-4716-bc23-3425146731a7"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DCat Member%3DBreed"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3d6bec3a-82dc-4fbc-bf99-ea7779da23b1"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36093698-a043-43d6-b568-225eeabe742b">
+                    <propertyInstance
+                      Id="aebfb27b-4dd2-461a-b78b-d53522af14ee"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f22d966-0526-4767-8a33-1a9b45a3c991">
+                    <propertyInstance
+                      Id="c98459c0-ba27-47cb-8de8-e066cac59f46"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5082c93-134f-4678-8b2c-08e7a9277e3d">
+                    <propertyInstance
+                      Id="882da8c7-a53e-42b3-b657-598b6af1afd9"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="724df4ec-23a2-45f1-877d-4177aec03ce5">
+                    <propertyInstance
+                      Id="86eeb5f2-b50f-48f9-b0de-3f3467960fe7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cea8ff31-d487-4b76-8810-98576d5e345b">
+                    <propertyInstance
+                      Id="5e017d2c-dfa3-48aa-a686-7e41760457d8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6842277f-0e57-4aa7-b968-435fbf48d1b5">
+                    <propertyInstance
+                      Id="8daf9d11-f96a-4ff7-9a37-cb1661713a5f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0cfdd356-52de-483e-9d62-9888e2493ed4">
+                    <propertyInstance
+                      Id="827149ad-77a4-4e6e-bc2e-06535722c301"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e8047d30-d6b0-4463-a32a-73d0448970fe"
+            name="CatID"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="32e4424a-6937-4dce-b44a-c0159a7e72cb"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DCat Member%3DCatID"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6f307545-b38e-4661-9d1c-183bd58e8ef1"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ca3030d-736f-4635-9778-7ff971248095">
+                    <propertyInstance
+                      Id="d514bd71-53a8-4884-8886-e6ddaa73f681"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="503c127d-7f4e-4c52-8be9-c2b572dc8fb5">
+                    <propertyInstance
+                      Id="1550a051-18e1-40cf-9734-08968416c4b4"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11dc51ed-e75e-4009-8e5b-8df7192bf047">
+                    <propertyInstance
+                      Id="7573484b-4b30-48c6-9eb9-0c7f7bd27398"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a2bdbc6-e5c1-462d-bd89-97c3d487e8a1">
+                    <propertyInstance
+                      Id="2fca0d16-f562-409d-a0de-518a29e4bc2f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b06852fe-308b-4b3f-b099-eadd66151f93">
+                    <propertyInstance
+                      Id="143d85ab-e7e3-4a66-a86a-af10c43e360e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c2ef839-4167-4d96-9364-e24560f69145">
+                    <propertyInstance
+                      Id="655b00fa-ce46-45aa-ba8a-07728b813bff"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7122ee9-4164-45b9-ad23-6dcb2cda7525">
+                    <propertyInstance
+                      Id="b7620abf-7e19-4d96-9fb9-d4add02c97e2"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b19e2c73-3736-4a65-a3c0-2bf1591e3a68"
+            name="Color"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3a24f043-8c4c-448a-a165-4a79ba2d497a"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DCat Member%3DColor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f8aa7c1f-1899-4a02-bd50-da7fdf96ce95"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1e850d4-8a34-4b9c-873d-865407aeafee">
+                    <propertyInstance
+                      Id="cc78d9bb-d063-435f-8771-25cb9be0f082"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1935f785-7d93-4cc9-ba40-01de40cda14b">
+                    <propertyInstance
+                      Id="a332fb58-b79a-4ad6-b2b1-7589ca4e72ef"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf4424b9-962d-40d0-adb7-9d3636ffc5c3">
+                    <propertyInstance
+                      Id="08346bb8-4a68-40c0-8bc5-e4739cbd0efa"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66c6e301-f7db-4a86-a00b-9034edfb71a3">
+                    <propertyInstance
+                      Id="33fa22c1-08ec-46d5-8e3e-655ceb07b266"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e0c4449-63e5-45cf-8c62-08085f60e30f">
+                    <propertyInstance
+                      Id="be48cf67-9b8b-4173-a46e-9a97953e63f1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6630bdc-8b79-4c59-a4bc-7829f03a0765">
+                    <propertyInstance
+                      Id="77b50274-15ff-4c1b-a251-22f6ba8158e0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4041d191-954c-4c5e-aaa7-9fd10db64bd8">
+                    <propertyInstance
+                      Id="2424d814-7d37-4867-aef2-584159131e01"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="5c708d69-a9fc-4bb9-acbb-86a0a6220f2e"
+            name="Gender"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5d07bba3-0376-4c3d-8229-07324d0e1384"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DCat Member%3DGender"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0d93b460-84d6-4b15-a709-988f6b2696e6"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9ac2845-2c39-4a36-b8d2-295da3568093">
+                    <propertyInstance
+                      Id="494f61d7-5992-44b3-ac58-c685e7c5ad7b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33969c04-2644-4a7f-a368-d3cd2349f4e6">
+                    <propertyInstance
+                      Id="5c5740ec-3557-442a-ad22-7d6bffb1d863"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e18ad20-3c16-46e7-843c-467820654bc2">
+                    <propertyInstance
+                      Id="fa491d46-c722-4021-902c-1660c3ec8138"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f849f18-6e7e-4aea-921e-017e562b977e">
+                    <propertyInstance
+                      Id="17a70158-817b-4c06-83aa-429da4abc1f7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e6102ed-c353-43d1-9f41-e4d7b4108418">
+                    <propertyInstance
+                      Id="34660105-cc63-424f-8135-7507f57683df"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c046c78-8b13-42a0-845c-6aba3fb3d0aa">
+                    <propertyInstance
+                      Id="98ac0cfd-3a04-4ec7-9ad0-376663b68458"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5da0a7e-5fcd-41a2-bb5b-fd7f014526d3">
+                    <propertyInstance
+                      Id="e74767ae-0547-48e5-b85f-fae640cb7b38"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="351f787f-94db-4be8-ba22-55b110126c09"
+            name="Member"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9982d361-637b-4fdc-af20-44331a8a495f"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DCat Member%3DMember"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="748837ae-fad1-4aa2-882b-19b1b5f596cc"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2272d200-d0ac-4d5d-bcce-1bcff45d46f7">
+                    <propertyInstance
+                      Id="6e2a1759-7021-4d42-88ca-ed59f364ee41"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="edf3daf9-4c61-4616-8c68-e75d3d3d8d8c">
+                    <propertyInstance
+                      Id="8ae07e73-678a-4887-82d1-a7346659d63a"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e187b15-1c2f-4801-9b33-72672644c38a">
+                    <propertyInstance
+                      Id="6d0ccf13-1271-41ea-acc0-c79c9c3be83f"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="49a42e6b-d235-48c0-8211-9d6a8758eeab">
+                    <propertyInstance
+                      Id="a8ea09c6-2ff1-45cd-bb32-6a79d89fb66a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57a95ea8-3179-4903-9a30-d69601ecf853">
+                    <propertyInstance
+                      Id="c8f63e0e-a0eb-4d90-a64a-fdbd5aca9f9a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9220cd5-ff05-4c47-aacb-7e99dbb8aa03">
+                    <propertyInstance
+                      Id="31f89cbd-e1ba-46a3-804b-39c8700682cc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1bb0648-1af1-45ee-9d40-ef985e60bcf4">
+                    <propertyInstance
+                      Id="51e22598-cd86-4f14-aa6c-a4f100ff2fd1"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="0d85f034-6ed3-4df1-beb1-6d3d8b05acc1"
+                LastKnownName="Member"
+                LastKnownLocation="Package1_1808.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="fe3c4204-eb9c-41f1-b711-2b1e54d826f3"
+            name="MemberID"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a7d276cf-66b3-4753-82da-8c8a33c698e7"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DCat Member%3DMemberID"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="371e843a-d433-46b0-9ccf-c97ee1a6df51"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="837c74ca-2cdc-4c84-bbf6-9e0e7e9106bf">
+                    <propertyInstance
+                      Id="c4deb358-b2af-4f2a-a7f4-acd05c6ff934"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="078b9e26-f26d-4890-8103-90b170a8195b">
+                    <propertyInstance
+                      Id="cc14f9e2-79cd-44e9-84ce-86197f2e2841"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c1eac5e-cd17-420f-b970-6a85f9381810">
+                    <propertyInstance
+                      Id="ddae4005-fef8-4b3e-a55e-8429f743244d"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="83dad5a6-f51b-4acf-90d2-79e3586ad02e">
+                    <propertyInstance
+                      Id="a106124d-d95e-41a8-b08b-c15ddc779783"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="922b0e22-c5f7-4aec-875c-126a4f74022c">
+                    <propertyInstance
+                      Id="5a0b970f-5702-4fbf-af03-3ca0780ce4d6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b152128f-2edd-47d4-aead-0951ac202c5f">
+                    <propertyInstance
+                      Id="26e1a441-98dc-4b0e-b1f6-73df271cfe63"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8e5ea32-be9d-40ab-b338-28f4dcd27386">
+                    <propertyInstance
+                      Id="000d967d-0166-4973-ae00-af9d19f5371e"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f479c324-df3d-408f-80e9-3da25ad156aa"
+            name="Name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="58a7922a-356a-4fd4-b517-d415695e2ef6"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DCat Member%3DName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d0c10827-5dfc-42fc-a314-a4e69fbaa325"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72617bee-35ac-4554-9b68-42d31bde61ff">
+                    <propertyInstance
+                      Id="877f72a1-3667-4fa8-916f-fed3d19d8572"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="adc01cdc-0b77-458a-90b1-2f82626ea33f">
+                    <propertyInstance
+                      Id="2cf785c0-a364-4b0d-8915-659444504b6b"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c4fbf29-77bd-436e-9ea3-2c2ec6e5b563">
+                    <propertyInstance
+                      Id="88b391a9-11ce-4d1f-a207-d764a7627c41"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e91fd39-0600-4fb6-86ae-840cd0172dc9">
+                    <propertyInstance
+                      Id="affa8ced-4f13-4907-905d-3c3bd70e58b1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a40a8151-44da-45b6-8484-8ab203b71518">
+                    <propertyInstance
+                      Id="407395fc-1b33-43d3-b0bc-077a72d6c95d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f2b5267-df7b-47eb-a1c8-c2b2872cd9ed">
+                    <propertyInstance
+                      Id="5aef96af-96d2-4033-b181-588657d82cf2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0077fb73-19dd-4afa-8901-fa1039351609">
+                    <propertyInstance
+                      Id="6612a98a-9041-4144-a18c-aa247d0663f0"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a78717a5-d3e1-4bd6-94f4-f9445d22becf"
+            name="ProfPict"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="abaed769-0190-4b6a-a06e-97fc642f33ce"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DCat Member%3DProfPict"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="959d6484-4fec-4cf1-b093-fe05dc685fe8"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f12d01dc-c6fa-4568-bfaa-37038d032f21">
+                    <propertyInstance
+                      Id="c7596ae4-dc6f-4586-8d36-ecceb76fcca4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f7b96ca9-0e12-45a2-a9ff-c22f6c089b71">
+                    <propertyInstance
+                      Id="a980c4b5-637e-4440-9aa1-5ee7a8ff9e85"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="107528d4-603e-42cf-9980-9857533220ad">
+                    <propertyInstance
+                      Id="06f75540-162b-415f-943e-53fddf0beb7e"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d932f220-8757-46f0-8e19-195ed8317763">
+                    <propertyInstance
+                      Id="f07e2a5f-4e2a-4555-ab71-f3d4be0cf58a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61f6e8b5-7fa8-486e-b3a9-c73f80c578c7">
+                    <propertyInstance
+                      Id="806341b5-d173-4725-84da-348634c04e3b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c37af4c-9d9a-4d5d-981e-a9f9d51601eb">
+                    <propertyInstance
+                      Id="7f04d273-0d50-4c84-90a8-e3686a03916e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33eb6979-815b-474d-8c81-509ee077fc7b">
+                    <propertyInstance
+                      Id="d9a49913-7928-4807-a666-51f09df1b558"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4091d884-dca3-4231-9772-d48d4e49d227"
+            name="member"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a068004f-0a57-43c2-b386-3251f3317442"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DCat Member%3Dmember"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="747633fa-1825-473d-b335-0bff6716ff86"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c26a0a89-7d73-4af0-acf1-f26796dee796">
+                    <propertyInstance
+                      Id="63bc9660-97c6-490b-a660-3d54ac311633"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b76b906-6b33-4aaf-b587-d624b7683e29">
+                    <propertyInstance
+                      Id="eeeb3c64-e064-4dc5-b395-e4b6fffcd991"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98c07f60-e002-49c1-836f-6cf0a5239284">
+                    <propertyInstance
+                      Id="a7edfd34-5ebe-4f93-ad83-dd20aec95ddf"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c6d812c-cba8-44b7-9b78-0512b30c9272">
+                    <propertyInstance
+                      Id="27370e1c-6448-4f66-9972-a4ccfbb0611a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="030f9123-e364-4496-8bf4-d04737ce8268">
+                    <propertyInstance
+                      Id="83972c29-92f9-4b59-abec-fe4436dfc1c3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="dd5e32cd-3941-4162-bd2d-20e4ef8617e7"
+                LastKnownName="List&lt;Member‎&gt;"
+                LastKnownLocation="Package4_1808.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="5505fa71-eaf6-4c80-a0cc-410f48fcc16c"
+            name="Cat"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="33ae797b-a32c-451c-9732-86065de64823"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DCat Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2073888b-843a-4ed5-810c-504788975c5e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="005a6454-5690-4dd3-9954-4495b2062712">
+                    <propertyInstance
+                      Id="1d5332ce-bcfa-4483-9a47-a979de7428fe"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73cb10bc-93d1-4a8a-9953-4166a773076e">
+                    <propertyInstance
+                      Id="df2d5096-e2c9-4108-8d7a-34409d154a9c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11ab1720-15a1-4cd9-8ba4-97e8bc6d7598">
+                    <propertyInstance
+                      Id="20663572-f110-4c18-8f54-12bef32e0daf"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="967a7230-371b-4318-b421-d193c1f13c88">
+                    <propertyInstance
+                      Id="02e0055f-85a3-485d-8608-e17992f5cb02"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95107f73-612b-4a58-8e81-4bc5265dc59f">
+                    <propertyInstance
+                      Id="5c01e60c-714d-4692-8019-101e454f6629"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8495e66f-8350-4575-96b9-29a9dda643cc">
+                    <propertyInstance
+                      Id="989bb3d9-d692-4fbb-b7c3-4ac86a8e4031"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="99a7a981-cb60-41be-9e5a-c3b5ffd0e779"
+        name="Post"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ab731511-1435-4b58-a36d-aa7f71f97fef"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DPost"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="57a7646a-f59f-4789-85f5-ce76c9fcab6d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d7855816-f0ed-4c55-9068-0717be62697d">
+                <propertyInstance
+                  Id="16458269-7734-4c48-98d0-1fd7e6bad20f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c80cff49-26b0-49cb-9ccd-7ade1b1e4037">
+                <propertyInstance
+                  Id="7b81eef8-a68a-4035-9e5f-c17a482b848b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="53cb10b3-fe7b-40db-be16-69923009cccc">
+                <propertyInstance
+                  Id="a2ff2aa6-af3b-4b55-86a6-bd966a79f125"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="22146b2c-9a98-4679-9ea6-9dc64abf1755">
+                <propertyInstance
+                  Id="f7a411d2-997b-4831-a937-181a7c09c4d7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aee37a2e-b2b5-478e-9a10-b88d03baac1d">
+                <propertyInstance
+                  Id="d540eb79-25a9-4996-96a7-36031a39ccb9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="f000b8c1-247e-4924-97d7-a7186bd0e090"
+            isDerived="false"
+            sourceEndRoleName="Post"
+            targetEndRoleName="Date"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="85b13095-79a8-4531-b396-bed33f49f275"
+              LastKnownName="DateTime"
+              LastKnownLocation="Package2_1808.uml" />
+            <description>Property Date references type DateTime.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ab77ad3c-bae7-4894-bad7-e1759d6c218d"
+                  name="Post"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="8f59b2b0-ac78-4f76-a977-d76bc5c7505c"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="90edbff6-1088-44b5-92f6-a932f0d5091c"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ae2527c9-40c0-4099-a15d-6b811856a326"
+                  name="Date"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="fb4cafcc-849b-42c7-96d7-ea95c8d99458"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="48ae0c2d-f6a4-42da-b50b-dbc783cdf59d"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="95916975-00af-4df8-822b-a54fd2f25f5f"
+            isDerived="false"
+            sourceEndRoleName="Post"
+            targetEndRoleName="Member"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="0d85f034-6ed3-4df1-beb1-6d3d8b05acc1"
+              LastKnownName="Member"
+              LastKnownLocation="Package1_1808.uml" />
+            <description>Property Member references type Member.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5058b253-8bae-4e46-bd6f-005c28b610b1"
+                  name="Post"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="856a9810-7cd2-4646-81cb-9831a920b5af"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="e214af9b-888f-4cb7-89fd-e15d67ed3152"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c5eae566-adc8-41b0-b985-626990a1fdb4"
+                  name="Member"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="1f66fe4f-1edb-4223-81c4-8bcd2c7e9867"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="e04dd36a-5cbd-4bbe-9afd-80113da696b7"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b984c8a7-a3db-4fc2-9f37-0d93e62a6558"
+            isDerived="false"
+            sourceEndRoleName="Post"
+            targetEndRoleName="Members"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="dd5e32cd-3941-4162-bd2d-20e4ef8617e7"
+              LastKnownName="List&lt;Member‎&gt;"
+              LastKnownLocation="Package4_1808.uml" />
+            <description>Property Members references type List&lt;Member‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9db398ab-021f-4c95-9355-fd0b6b74dd66"
+                  name="Post"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="92e18e43-1d4d-4439-826d-7412b3e44046"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="13a5d0b1-ddd4-40ea-8314-7460bc315222"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5813e178-91bb-4f60-b618-2e4b1731f2f5"
+                  name="Members"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="360b0461-9210-47dd-9acf-6cc133d75762"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="15032f41-14ce-46b7-95eb-16e51f93af0c"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="6d018e77-5fef-450f-885a-31ed6467a9f8"
+            isDerived="false"
+            sourceEndRoleName="Post"
+            targetEndRoleName="Replies"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="5d8c317f-b95d-4c3b-97c5-db3ea2436ce1"
+              LastKnownName="List&lt;Reply‎&gt;"
+              LastKnownLocation="Package4_1808.uml" />
+            <description>Property Replies references type List&lt;Reply‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1a5c9bef-9877-4f75-816a-623ba13297d4"
+                  name="Post"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="94f4b465-7447-4dc7-8d9a-ee00154dcb0b"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="b83250c1-d6a8-4531-80fe-8f4211f8cc83"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="323a348a-57d4-4006-b2f1-cd59021ecb79"
+                  name="Replies"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="13fbb835-361c-4f0e-8604-6157a4f09c8f"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="f89b4772-a82e-47a7-adbd-65ec7a0dd569"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="f6a16a84-3e06-477c-8419-65fbb25ec9f4"
+            name="Body"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ed3b118b-93ee-4313-8d84-192a06ac8cd5"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DPost Member%3DBody"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="30d15888-7a43-4238-811b-c8ccb671548d"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9eb9a40-724b-4c92-8b7b-899c9f8dfa4c">
+                    <propertyInstance
+                      Id="5aa59c25-43e0-4a67-bef8-3c927b7784fb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d44b3a1c-a382-4d50-b056-bad1758d9784">
+                    <propertyInstance
+                      Id="da84387a-f3b6-4c6c-9fb9-f36cd28d5843"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f27f1ea-62ed-476f-bd31-2472b79f50a4">
+                    <propertyInstance
+                      Id="3f285ceb-22a3-4ab4-955c-3fdd2e20ba12"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db392855-2161-4720-a916-2a3586d2fec5">
+                    <propertyInstance
+                      Id="46fceda8-da9a-4d47-b04c-320e3305dce7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="958c2542-5aa4-46b1-809f-a22d478dd0e8">
+                    <propertyInstance
+                      Id="35e7f2ca-b0a8-44cd-a9f5-c80b71dbf9c8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8e73346-1dd9-4743-86e9-6b47c5313796">
+                    <propertyInstance
+                      Id="cc771eeb-2fb1-4974-9d4d-2a3848e3605c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7bbd2be2-31a2-4e8b-b733-e5bd01a7d2fd">
+                    <propertyInstance
+                      Id="1b0c208e-3758-4da4-9668-19593705edd0"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="31274726-648f-4612-a6e7-aae61d6ac135"
+            name="Date"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3101cff4-1efe-4809-90e8-a51880f6045d"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DPost Member%3DDate"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b4c3f181-b51b-4b68-bab7-bed9ac1d1897"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="70daea37-bff0-4eda-b083-629492247a16">
+                    <propertyInstance
+                      Id="6f0e16c2-c479-4b71-a0cd-2f9dad621c10"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7f5a777-8fc0-440d-a213-e98cafff0ca7">
+                    <propertyInstance
+                      Id="84aad15c-52ef-4b18-8ec2-77c7a700917e"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d27119a-78e0-4f63-b803-f0931e7f54d8">
+                    <propertyInstance
+                      Id="981c28e0-e9e3-4a62-9f6f-c82dfa500d14"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f118cdd-aacf-469d-b9d2-f15888de7a93">
+                    <propertyInstance
+                      Id="3d31b301-93f3-4a32-bad9-49d08c2314c4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42d20cf1-3dd2-4ac2-bc8d-d7f000b39102">
+                    <propertyInstance
+                      Id="9f8f02c4-7ce4-4e12-9f1d-78e68402b540"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f6bcf33-58ae-4c54-9f13-f8e0c5ac2383">
+                    <propertyInstance
+                      Id="43d49a9c-d12d-4dfe-81de-fa9eaa7ea94e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef22419b-2034-445f-a33a-9fe8455dbaf6">
+                    <propertyInstance
+                      Id="ad914925-fa3e-44ca-80b9-1430937ab110"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="85b13095-79a8-4531-b396-bed33f49f275"
+                LastKnownName="DateTime"
+                LastKnownLocation="Package2_1808.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="5f9b802e-ae6c-4562-af8d-fbe6b910a03f"
+            name="Member"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="126f83dd-8749-40cc-af8c-d7edb3a0bcd7"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DPost Member%3DMember"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7b3136fe-f0e7-4aaa-a6d9-7bd7af34c277"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="83c721c5-00e5-4d3a-a582-0b1efe9bbc74">
+                    <propertyInstance
+                      Id="38517ecf-6d63-470b-a01e-e057557cc0ba"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf852518-fae2-4f7a-8d2f-cdee4f1535f0">
+                    <propertyInstance
+                      Id="9d70d93a-1db4-472e-8581-55df4ecb0683"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1fa1924-a3bf-430d-a907-5e339dcf4e38">
+                    <propertyInstance
+                      Id="1bd40132-1dfd-4fd6-818c-7680c28376dc"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef6bfe8e-cec5-4d32-8763-3f30d1ab56d1">
+                    <propertyInstance
+                      Id="d60b78a1-83df-488c-96e4-5a850464b457"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dcca5aca-c3a0-4f1f-a4f9-1a507f24dae5">
+                    <propertyInstance
+                      Id="790f0837-54b3-4fe6-b7f3-1f6addcb2f3f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3ae9299-957e-4a94-90f3-862e86b282c4">
+                    <propertyInstance
+                      Id="88d7036f-096b-4339-9841-57f0b87b2ef6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e6a698d-f097-4439-8e27-a17e833a2e62">
+                    <propertyInstance
+                      Id="78631119-3c48-4442-8974-dbeeb004c28d"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="0d85f034-6ed3-4df1-beb1-6d3d8b05acc1"
+                LastKnownName="Member"
+                LastKnownLocation="Package1_1808.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4bb656bf-1b3c-49af-b7d3-c5c31cf3b816"
+            name="MemberID"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1f34feb9-f703-4b93-9923-c66a4e229fe9"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DPost Member%3DMemberID"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="42a49df8-0d72-4caa-b601-da4fa7066cad"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a605fe25-019b-4c69-a769-65c3236f408e">
+                    <propertyInstance
+                      Id="ec4eb4b5-55e8-4f36-a400-2bd757d98eb9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a66545cf-c311-45be-b205-0d3f0dfd483c">
+                    <propertyInstance
+                      Id="80b7cc3f-e4a7-4f37-91bb-1e9d7d70952e"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5295c80d-1dfc-4a33-a123-bb720cff8ff0">
+                    <propertyInstance
+                      Id="bdbba1ab-5188-4416-af56-fb2f872c1fe8"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b96e0f29-0d9f-4f41-9e44-69ba2ffceed1">
+                    <propertyInstance
+                      Id="5cbb3c55-54fd-4846-b847-b904b32c2499"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80c57ce9-2170-43e9-9d4d-fb8753d42d50">
+                    <propertyInstance
+                      Id="2a24365b-7cc2-4e08-bad0-a6dfb5f4801c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75af5d20-70b7-45f2-8af1-2fc7d89290a5">
+                    <propertyInstance
+                      Id="12163d90-43fb-4430-8b2a-559958496642"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51f920bf-71fc-4d84-bfa5-13d31234ba8b">
+                    <propertyInstance
+                      Id="4ec34946-9623-4ab7-ad51-c464ec2da8ee"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b620e12e-32c7-4b7b-beaf-ba66a22debad"
+            name="Members"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5107a5ab-2cdc-4192-a09c-624b3798c4ac"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DPost Member%3DMembers"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b4f0e88f-81d2-462f-896a-ff32799bd01d"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58707227-6131-442e-95f0-f321b8cbbd9d">
+                    <propertyInstance
+                      Id="9ebaa87c-967b-409d-9d67-7194b6be5d67"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b45954c0-3481-4978-9fc6-f5962e376813">
+                    <propertyInstance
+                      Id="db01afaf-5788-4fc7-ba51-d6eb47161b84"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="405b0a9f-6805-4053-9f71-d664954c6b39">
+                    <propertyInstance
+                      Id="14e24224-e4d1-4afb-b7f9-2e56716a5518"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c956f7e5-672b-454a-b7f9-49b9ec65aa8d">
+                    <propertyInstance
+                      Id="e08750f7-edb4-4edf-a50f-7764c348af03"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc5420b3-e049-415c-b4bb-f88340d2d6a3">
+                    <propertyInstance
+                      Id="d5ca3f35-51c3-4f18-ad16-8b9ee907e84d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8070024-7705-46f0-91dd-10d2b70eaeb0">
+                    <propertyInstance
+                      Id="cc943db4-04d1-4050-aaba-d197f16ac443"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b69393e9-a07e-4bfd-a229-966cf6f3676a">
+                    <propertyInstance
+                      Id="e8f93ce7-1c46-406c-b1b5-8bac398af820"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="dd5e32cd-3941-4162-bd2d-20e4ef8617e7"
+                LastKnownName="List&lt;Member‎&gt;"
+                LastKnownLocation="Package4_1808.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c8038bd4-8c33-4546-a17a-28c4a1e7ec79"
+            name="PostID"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2ad50c8e-6e75-4557-bd23-9578a0eb1fb4"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DPost Member%3DPostID"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d9211266-3eda-46d9-aa7d-c09ad3e6c8bc"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d94a1129-9aed-4127-b19b-203424c81a2c">
+                    <propertyInstance
+                      Id="b2595275-3564-4a7a-8abb-8d8c8dd26dea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8799fe78-06a4-41cf-b7b7-cfae1e26eea7">
+                    <propertyInstance
+                      Id="9fbabaf5-6fa9-4da8-adde-5396454a777b"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2dbbf011-d565-4167-a52e-a25fc02ed936">
+                    <propertyInstance
+                      Id="4089631f-3786-4104-88d2-3d4ab60b5777"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ade35c0f-4829-4143-b690-2121c182aa7a">
+                    <propertyInstance
+                      Id="262d0f21-0cd0-40b5-97e4-b58e70db7798"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed2d9fcf-8b4f-4b24-b376-981139cc5c26">
+                    <propertyInstance
+                      Id="5c0d31e0-e165-411c-b3ab-f69c9a974dd9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="274f4084-b219-402e-a7a0-e9d00f3d75ef">
+                    <propertyInstance
+                      Id="e796a3ea-f6cb-4996-9752-fdf01ebbd6cd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ffd286d-0ccf-4db7-a691-4cfbdae569af">
+                    <propertyInstance
+                      Id="5efe6d7a-06f6-48e6-88ff-a15b70c14c32"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9393af6f-9151-4982-b0bf-bde344271283"
+            name="Replies"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="266494b7-2c26-429e-8750-51e8c5b7a64b"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DPost Member%3DReplies"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f6b930c5-e4f4-4c00-b84e-b33799eb09e0"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b92d62b8-dc4a-41ab-ab2e-9f993b033ba4">
+                    <propertyInstance
+                      Id="59ce03fb-6b25-4b53-a9a9-4b67e9ecfb4b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe248ef7-d1cb-421b-895f-d107f2ad5146">
+                    <propertyInstance
+                      Id="9edbafe8-4b3d-4af3-ab8b-985f6408ac0f"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="296ab94b-511c-4e4b-b44c-fab3c47892fd">
+                    <propertyInstance
+                      Id="4bd05e1f-e992-49d1-8eee-82baf7515ca7"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ee3def0-2c06-4034-99a8-e5de25ca6a50">
+                    <propertyInstance
+                      Id="09b24efa-ebbe-4e5d-9e94-3225aacf5c71"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de598dc3-30e6-4b8a-ae91-4633861135ef">
+                    <propertyInstance
+                      Id="5c7e1e8a-4267-4cc9-9d6f-ceb0c31268ea"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27bce080-736a-44ee-be30-8052d49822d1">
+                    <propertyInstance
+                      Id="e9f02949-c5f8-464e-aca4-5b3f9a594f1d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c9d19c0-afcf-48be-b786-617a58856208">
+                    <propertyInstance
+                      Id="3f93a190-72bb-435a-a668-9a0301cd1b2c"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="5d8c317f-b95d-4c3b-97c5-db3ea2436ce1"
+                LastKnownName="List&lt;Reply‎&gt;"
+                LastKnownLocation="Package4_1808.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="981d9edc-a007-4457-b610-f972b1e14477"
+            name="Subject"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="bd4f8639-6c31-4f3a-b46d-15f78da531e8"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DPost Member%3DSubject"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5c4c13f7-5220-4d99-9a53-02215a27eb12"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="abc8c005-59e2-485b-a0ca-34b0ef9b3966">
+                    <propertyInstance
+                      Id="9691d257-7acc-4def-bf1b-d321358bc18d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce2514c1-961d-4407-a11c-1f1bfc4a1cd1">
+                    <propertyInstance
+                      Id="b5c570d9-c14b-4275-8d77-9412c1dfb136"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc2a2a1c-f528-4227-962d-d1255bd282fc">
+                    <propertyInstance
+                      Id="60996bfd-463c-4ec5-99f7-9444c8d4be4d"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="646deeda-e0de-465f-bda6-353e5066c5fd">
+                    <propertyInstance
+                      Id="2154f7c2-4da3-4c59-8b01-370539326fd4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8e18712-5ff6-45f1-a125-34b6bf628f09">
+                    <propertyInstance
+                      Id="282b0061-cdcd-470e-b143-17c827d312b1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0efe370-0692-4a91-8bd7-038e02609964">
+                    <propertyInstance
+                      Id="13bcda3e-e328-482b-a459-e55c8997937b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72047cd7-6685-4aef-a4b2-7b4b016e9fd6">
+                    <propertyInstance
+                      Id="9d1ccbcb-2409-467b-8af8-f496724b5df2"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f34ab541-b936-41e0-b996-287a392cf8c3"
+            name="Username"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="cc01b437-8c74-4670-ad7a-31740e070c05"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DPost Member%3DUsername"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ea095ee5-e903-452a-92ca-aaed865e86ff"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d26bb114-b507-40c8-b3d1-e3e4b4de9388">
+                    <propertyInstance
+                      Id="e6ad8f46-f7ba-43b7-9b8a-db0c8a5be27e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43a06edb-29b2-438e-bd25-c0c8bc710a2b">
+                    <propertyInstance
+                      Id="26c36826-4e43-4c97-82a6-4975f4a21ccb"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="421e109a-9ea3-4dc4-8d3b-b314ce131174">
+                    <propertyInstance
+                      Id="584365c9-ccf8-47bb-b128-2be9872e62f5"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64cf474f-e0bc-4720-a098-3a7a10af18b4">
+                    <propertyInstance
+                      Id="8da230f4-7ef7-4ee6-a0f6-e7033cca855c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7e9b57b-09b6-44b3-91dd-674acd04d2f0">
+                    <propertyInstance
+                      Id="d79f8acc-490b-424c-a7c2-16e786c16808"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3252ca85-f532-42c0-9610-c94eb5b4dd3a">
+                    <propertyInstance
+                      Id="afdf4bd6-c119-4c06-8a1c-e552baef8eb3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c08639ed-530e-43ca-9d7c-243477193a50">
+                    <propertyInstance
+                      Id="20aa344a-1a24-412c-b7c8-69eefba51dad"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="CatTalesModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="35f70be2-9267-431b-b047-6b4f82d9b821"
+            name="member"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="aaed2f4f-59b2-4edc-a804-148c16b98cbe"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DPost Member%3Dmember"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e016ad36-1e24-4be1-9bbb-140d8b20b3db"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="05572e0a-06d9-4606-87ab-7b71b91d18fb">
+                    <propertyInstance
+                      Id="870985b2-8eae-4d08-bcfa-b0d25415d7c2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b49096b-584f-4d1f-9cda-ea644ebf8cae">
+                    <propertyInstance
+                      Id="427a5355-f229-45b3-9d55-dce0c17ee245"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="911e7c58-a150-49e4-ba77-028229e9584d">
+                    <propertyInstance
+                      Id="397afa0d-50ac-4f18-91c4-d37815bbe395"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92372018-7e42-4a2b-8ae9-2a1097302989">
+                    <propertyInstance
+                      Id="7bdb34b8-3df7-498d-b7c4-30c54fcbdac1"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc49659b-69e9-40cf-a189-11497d7b4ee7">
+                    <propertyInstance
+                      Id="c831a367-4cff-4732-8206-685dbc56b845"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="dd5e32cd-3941-4162-bd2d-20e4ef8617e7"
+                LastKnownName="List&lt;Member‎&gt;"
+                LastKnownLocation="Package4_1808.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="074bfffe-97f9-4e85-9693-3fa6e49b8862"
+            name="reply"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0c1b50c2-659c-4a99-8c09-62a869f4870e"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DPost Member%3Dreply"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5baf50ed-2fb1-42b9-9872-1904894815d2"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4adeffe3-19e8-4892-ab47-3febcf07a8fb">
+                    <propertyInstance
+                      Id="7e6caf0c-2464-4454-ace9-0288eb020690"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db29358e-17cf-4588-8ba8-28af1c25a566">
+                    <propertyInstance
+                      Id="481c05cc-f3b4-4a29-bda9-090fdb1ded73"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73c73109-fd69-49cb-a8e2-469d1a98de24">
+                    <propertyInstance
+                      Id="9fa0d36b-270e-44b3-90f4-08ce8cf9e238"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="976917ce-c8bd-4784-8eb2-0d1bc4393e16">
+                    <propertyInstance
+                      Id="6c3c7170-bf5f-4c3b-9434-e5cd69eaf9b6"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ba2eb1d-df66-48b3-9cb3-f2153dbb67e2">
+                    <propertyInstance
+                      Id="8bfdc988-8e2c-40d8-be1d-0c72ad2d560b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="5d8c317f-b95d-4c3b-97c5-db3ea2436ce1"
+                LastKnownName="List&lt;Reply‎&gt;"
+                LastKnownLocation="Package4_1808.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="2c2dbc7b-8c3f-4514-a789-d6185702e2ee"
+            name="Post"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fad72b89-5876-4b8f-9ed5-45e48396b7e4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DPost Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9c2bf526-85f0-4571-a868-db3eee9bc081"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6e3ffd9-1b65-4a99-ab96-4d39eee7d377">
+                    <propertyInstance
+                      Id="9a0137de-cf8b-4f36-891e-c618d4a7c070"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a38ab99-78a7-4987-be34-315a25fc57b4">
+                    <propertyInstance
+                      Id="0bc68ddc-de3f-4603-b921-32ef2683a92f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62f71c26-f327-4f49-83dc-6f53501a4719">
+                    <propertyInstance
+                      Id="be6cc969-bb14-4b3e-8025-a4cc88a0f8e2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be3a4534-32b5-4890-a720-c583e54fb017">
+                    <propertyInstance
+                      Id="f0bf7b69-14d1-4d97-8a1a-c296bedf7a0f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aaf81959-aff6-4ce5-8e67-a53385a97a23">
+                    <propertyInstance
+                      Id="984703f9-9523-4b4c-8526-3ee443524c0c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10d60acb-1a6e-412a-a4b9-9376814c11ac">
+                    <propertyInstance
+                      Id="7eab8c24-2654-4f28-a59d-0f3374199d03"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e4afeeb8-9046-4f82-a748-d8462a17b0c6"
+        name="Reply"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="59ff637b-e4d1-4d8e-a191-b7d1a39ea6f7"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Ftokun_000%2FDocuments%2FVisual Studio 2013%2FProjects%2Fwinter2016%2Fcs296n%2Fcs296n_TermProject%2FCatTales%2FCatTales%2Fbin%2FCatTales.dll&quot; Namespace%3DCatTales.Models Type%3DReply"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c3656437-4c54-40af-92ae-c08f37482d57"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2fcd9002-44f3-4648-b187-8a43cbf87476">
+                <propertyInstance
+                  Id="f1ee048d-eaf9-4d62-9b76-4396e5c1dc11"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3c2ab9a2-772b-427f-8dd9-fae0a6711f86">
+                <propertyInstance
+                  Id="4b8932ec-cb00-4579-af4a-a00968ee51b1"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9bf3d813-9cbd-4bc2-b2af-744df717f75b">
+                <propertyInstance
+                  Id="3ddd55f4-de84-442a-bdfa-dd37ea7a9bf0"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="22ba8ff2-0f08-40da-87ef-94d9513ac742">
+                <propertyInstance
+                  Id="0b48d239-077a-49e9-ad81-3666674a60c6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9447d0c9-2fcb-40ec-b266-1e187f4fc95a">
+                <propertyInstance
+                  Id="9d9ff0e8-e421-459d-9fad-364475eb01e6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

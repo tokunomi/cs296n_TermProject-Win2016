@@ -8,6 +8,8 @@ namespace CatTales.Models
 {
     public class Cat
     {
+        List<Member> member = new List<Member>();
+
         public int CatID { get; set; }
         public int MemberID { get; set; }
         [StringLength(40)]
@@ -25,5 +27,7 @@ namespace CatTales.Models
         // for a graphic. Set to string for now so that a link to a graphic could be added to it.
         [DataType(DataType.ImageUrl)]
         public string ProfPict { get; set; }
+
+        public virtual Member Member { get; set; }
     }
 }

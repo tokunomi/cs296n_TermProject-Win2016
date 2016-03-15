@@ -17,7 +17,8 @@ namespace CatTales.Controllers
         // GET: Members
         public ActionResult Index()
         {
-            return View(db.Members.ToList());
+            return View(db.Users.ToList());
+            //return View(db.Members.ToList());
         }
 
         // GET: Members/Details/5
@@ -27,7 +28,8 @@ namespace CatTales.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Member member = db.Members.Find(id);
+            Member member = db.Users.Find(id);
+            //Member member = db.Members.Find(id);
             if (member == null)
             {
                 return HttpNotFound();
@@ -50,7 +52,8 @@ namespace CatTales.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Members.Add(member);
+                db.Users.Add(member);
+                //db.Members.Add(member);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -65,7 +68,8 @@ namespace CatTales.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Member member = db.Members.Find(id);
+            Member member = db.Users.Find(id);
+            //Member member = db.Members.Find(id);
             if (member == null)
             {
                 return HttpNotFound();
@@ -96,7 +100,8 @@ namespace CatTales.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Member member = db.Members.Find(id);
+            Member member = db.Users.Find(id);
+            //Member member = db.Members.Find(id);
             if (member == null)
             {
                 return HttpNotFound();
@@ -109,8 +114,10 @@ namespace CatTales.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Member member = db.Members.Find(id);
-            db.Members.Remove(member);
+            Member member = db.Users.Find(id);
+            //Member member = db.Members.Find(id);
+            db.Users.Remove(member);
+            //db.Members.Remove(member);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

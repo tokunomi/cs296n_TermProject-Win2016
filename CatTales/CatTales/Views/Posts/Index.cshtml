@@ -1,25 +1,25 @@
 ﻿@model IEnumerable<CatTales.Models.Post>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Posts Index | Cat Tales";
 }
 
-<h2>Index</h2>
+<h2>Posts Index</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table">
     <tr>
-        <th>
+        @*<th>
             @Html.DisplayNameFor(model => model.MemberID)
-        </th>
+        </th>*@
         <th>
             @Html.DisplayNameFor(model => model.Date)
         </th>
-        <th>
+        @*<th>
             @Html.DisplayNameFor(model => model.Username)
-        </th>
+        </th>*@
         <th>
             @Html.DisplayNameFor(model => model.Subject)
         </th>
@@ -31,15 +31,15 @@
 
 @foreach (var item in Model) {
     <tr>
-        <td>
+        @*<td>
             @Html.DisplayFor(modelItem => item.MemberID)
-        </td>
+        </td>*@
         <td>
             @Html.DisplayFor(modelItem => item.Date)
         </td>
-        <td>
+        @*<td>
             @Html.DisplayFor(modelItem => item.Username)
-        </td>
+        </td>*@
         <td>
             @Html.DisplayFor(modelItem => item.Subject)
         </td>

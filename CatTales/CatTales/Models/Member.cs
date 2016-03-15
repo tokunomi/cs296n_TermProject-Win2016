@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNet.Identity.EntityFramework;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -6,12 +7,12 @@ using System.Web;
 
 namespace CatTales.Models
 {
-    public class Member
+    public class Member : IdentityUser  // Inheriting from Identity.EntityFramework
     {
         List<Cat> cat = new List<Cat>();
         public int MemberID { get; set; }
-        public List<Cat> Cats 
-        { 
+        public List<Cat> Cats
+        {
             get { return cat; }
         }
 
@@ -23,15 +24,15 @@ namespace CatTales.Models
         [StringLength(50, MinimumLength = 2)]
         [Display(Name = "Last Name", Order = 15001)]
         public string NameLast { get; set; }
-        [StringLength(30)]
-        public string Username { get; set; }
-        [Required]
-        [DataType(DataType.EmailAddress)]
-        [RegularExpression(@"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}", ErrorMessage = "Please check your Email Address; it does not appear valid.")]
-        public string Email { get; set; }
-        [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
-        public DateTime Birthday { get; set; }
+        //[StringLength(30)]
+        //public string Username { get; set; }
+        //[Required]
+        //[DataType(DataType.EmailAddress)]
+        //[RegularExpression(@"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}", ErrorMessage = "Please check your Email Address; it does not appear valid.")]
+        //public string Email { get; set; }
+        [DataType(DataType.Date)]  // having an issue with the Date datatype
+        [DisplayFormat(DataFormatString = "{0:MM-dd-yyyy}", ApplyFormatInEditMode = true)]
+        public DateTime? Birthday { get; set; }
         [StringLength(1)]
         public string Gender { get; set; }  // planning to make this a pulldown
         [DataType(DataType.Url)]
@@ -41,5 +42,6 @@ namespace CatTales.Models
         // String for now so that a link to a graphic could be added to it.
         [DataType(DataType.ImageUrl)]
         public string ProfPict { get; set; }
+
     }
 }

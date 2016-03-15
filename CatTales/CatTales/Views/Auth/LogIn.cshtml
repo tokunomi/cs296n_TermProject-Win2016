@@ -1,0 +1,26 @@
+﻿@model CatTales.Models.AuthLogInViewModel
+@{
+    ViewBag.Title = "Cat Tales | Log In";
+}
+
+<h2>Log In</h2>
+
+@Html.ActionLink("Register", "Register")
+<hr />
+
+@Html.ValidationSummary(true)
+
+@using (Html.BeginForm())
+{
+    @Html.EditorForModel()
+    {
+        <p>&nbsp;</p>
+        <p>
+            <button type="submit" class="btn">Log In</button>
+        </p>
+    }
+}
+
+<!--Trying to center a block horizontally in Bootstrap-->
+<!--<div class="col-sm-4 center-block">
+</div>-->

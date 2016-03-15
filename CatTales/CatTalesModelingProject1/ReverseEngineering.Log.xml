@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2016-02-21T18:09:59" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'b359156b-cb71-4e4c-8665-85517aff4ee9' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'CatTalesModelingProject1::CatTales' -  (Package)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'CatTalesModelingProject1::CatTales::Models' -  (Package)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Medium" Text="Element reverse engineered into the UML model: 'CatTalesModelingProject1::CatTales::Models::Cat' -  (Class)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'CatTalesModelingProject1::CatTales::Models::Cat::Age' -  (Property)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'CatTalesModelingProject1::CatTales::Models::Cat::Breed' -  (Property)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'CatTalesModelingProject1::CatTales::Models::Cat::Cat' -  (Operation)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'CatTalesModelingProject1::CatTales::Models::Cat::CatID' -  (Property)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'CatTalesModelingProject1::CatTales::Models::Cat::Color' -  (Property)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'CatTalesModelingProject1::CatTales::Models::Cat::Gender' -  (Property)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'CatTalesModelingProject1::CatTales::Models::Cat::member' -  (Property)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'CatTalesModelingProject1::CatTales::Models::Cat::Member' -  (Property)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'CatTalesModelingProject1::CatTales::Models::Cat::MemberID' -  (Property)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'CatTalesModelingProject1::CatTales::Models::Cat::Name' -  (Property)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'CatTalesModelingProject1::CatTales::Models::Cat::ProfPict' -  (Property)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'CatTalesModelingProject1::CatTales::Models::Member' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'CatTalesModelingProject1::System' -  (Package)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'CatTalesModelingProject1::System::Collections' -  (Package)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'CatTalesModelingProject1::System::Collections::Generic' -  (Package)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'CatTalesModelingProject1::System::Collections::Generic::List' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'CatTalesModelingProject1::System::Collections::Generic::List&lt;Member‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: CatTalesModelingProject1::CatTales::Models::Cat to CatTalesModelingProject1::CatTales::Models::Member (Association)" />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="High" Text="(1) type(s) fully reverse engineered." />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="High" Text="(3) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2016-02-21T18:10:02" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

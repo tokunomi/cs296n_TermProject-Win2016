@@ -1,8 +1,15 @@
-﻿body {
+﻿::selection {
+                color: #ffffff;
+                background: #f6bd20; /* Pikachu Shade (warm yellow) */
+                /*background: #EF6019;*/ /* ColourLovers: Sweet Orange */
+            }
+body {
     font-size: 16px;
-    background-image: url(images/bg/SoftKitties.png);
+    color: #292929; /*mcgray (dk. cool gray)*/
+    /*background-image: url(images/bg/SoftKitties.png);
     background-repeat: repeat;
-    background-color: #fff8f4;
+    background-color: #fff8f4;*/
+    background-color: #fff6a4; /*corange (cream)*/
 }
 
 /*.container {
@@ -66,6 +73,12 @@
   /*background-color: #ffffff;*/ /*solid white*/
   background-color: rgba(255,255,255,0.9);
   border-radius: 6px;
+}
+
+/*Navbar Styles*/
+
+.navbar-inverse {
+    background-color: #292929; /* mcgray (dark cool gray) */
 }
 
 

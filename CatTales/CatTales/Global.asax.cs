@@ -14,7 +14,9 @@ namespace CatTales
     {
         protected void Application_Start()
         {
-            Database.SetInitializer(new DropCreateDatabaseAlways<CatTalesContext>());  // temp initilzer
+            //Database.SetInitializer(new MembersDbInitializer()); // a seed for members. 'Active' one when not useing migrations
+            //Database.SetInitializer(new PostsDbInitializer());
+            //Database.SetInitializer(new DropCreateDatabaseAlways<CatTalesContext>());  // temp initilzer
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

@@ -159,21 +159,27 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AuthController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MembersController.cs" />
     <Compile Include="Controllers\PostsController.cs" />
+    <Compile Include="Controllers\RolesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Article.cs" />
     <Compile Include="Models\Author.cs" />
+    <Compile Include="Models\AuthRegisterViewModel.cs" />
     <Compile Include="Models\Cat.cs" />
     <Compile Include="Models\CatTalesContext.cs" />
     <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\CommentReply.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\AuthLogInViewModel.cs" />
     <Compile Include="Models\Member.cs" />
+    <Compile Include="Models\MembersDbInitializer.cs" />
     <Compile Include="Models\Post.cs" />
     <Compile Include="Models\PostsDbInitializer.cs" />
     <Compile Include="Models\Reply.cs" />
@@ -184,6 +190,8 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\custom.css" />
+    <Content Include="Content\images\profile\profile-girl.jpg" />
+    <Content Include="Content\images\profile\profile-guy.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -191,6 +199,7 @@
     <Content Include="Content\images\bg\SoftKitties.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\tokunomi-cattales.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -244,6 +253,14 @@
     <Content Include="Views\Posts\Details.cshtml" />
     <Content Include="Views\Posts\Edit.cshtml" />
     <Content Include="Views\Posts\Index.cshtml" />
+    <Content Include="Views\Auth\Index.cshtml" />
+    <Content Include="Views\Auth\LogIn.cshtml" />
+    <Content Include="Views\Shared\_AuthLoginPartial.cshtml" />
+    <Content Include="Views\Auth\Register.cshtml" />
+    <Content Include="Views\Roles\Create.cshtml" />
+    <Content Include="Views\Roles\Index.cshtml" />
+    <Content Include="Views\Roles\Edit.cshtml" />
+    <Content Include="Views\Roles\ManageUserRoles.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

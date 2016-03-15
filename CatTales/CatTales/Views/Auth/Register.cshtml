@@ -1,0 +1,18 @@
+﻿@model CatTales.Models.AuthRegisterViewModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>Register</h2>
+
+@Html.ValidationSummary(false)
+
+@using (Html.BeginForm())
+{
+    @Html.EditorForModel()
+    <p>&nbsp;</p>
+    <p>
+        <button type="submit" class="btn">Register</button>
+    </p>
+}
+
